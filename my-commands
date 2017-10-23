@@ -1,0 +1,19 @@
+  669  cd git-practice-2
+  670  init git
+  671  cd Desktop/Galvanize/projects/version-control-using-git/drills/version-2
+  672  cd ../../../
+  673  mkdir git-drill-2
+  674  mkdir git-practice-2 git-practice-2/assets && touch git-practice-2/assets/styles.css git-practice-2/index.html git-practice-2/readme.md
+  675  cd git-practice-2
+  676  git init
+  677  git add index.html assets/styles.css
+  678  git status
+  679  git commit -m "styles.css and index.html commit"
+  680  git remote add origin https://github.com/chasfricke/ATS_2_B.git
+  681  git push origin master
+  682  git add -A
+  683  git commit -m "all 3 files commit"
+  684  git push origin master
+  685  git pull origin master
+
+/* I updated the history function to include the last 17 steps vs the 10 commands that step 18 currently requests.*/  
